@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Вгадай мене</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Вгадай мене</h1>
+  
+  <div id="question">У твого персонажа є хвіст?</div>
+  <button onclick="answer(true)">Так</button>
+  <button onclick="answer(false)">Ні</button>
+
+  <div id="result" class="hidden"></div>
+
+  <div id="newCharacter" class="hidden">
+    <p>Кого ви загадали?</p>
+    <input id="name" placeholder="Ім'я персонажа">
+    <p>Яка його характерна риса?</p>
+    <input id="trait" placeholder="Наприклад: має крила">
+    <button onclick="saveCharacter()">Зберегти</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
