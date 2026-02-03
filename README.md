@@ -17,3 +17,7 @@
 - Endless learning: each new character adds a branch to the tree;
 - Data is saved in "localStorage" so the knowledge base isn’t lost after a reload;
 - Simple interface with "Yes" / "No" buttons and a form to add characters;
+
+## Vision on Iphone 14 pro:
+
+<img width="538" height="908" alt="Знімок екрана 2026-02-03 153825" src="https://github.com/user-attachments/assets/36a7f8c8-29b5-4707-bb73-a65ae60babc6" />
